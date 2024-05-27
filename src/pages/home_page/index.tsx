@@ -1,14 +1,12 @@
 import { Background_page } from "../../components/background_page";
 import img from "../../assets/img.png";
-import { DivLeft, DivRight, Div,Headers,TextContainer } from "./style";
+import { DivLeft, DivRight, Div,TextContainer } from "./style";
 import { Navbar } from "../../components/navbar";
 
 export function Home_page() {
   return (
     <Background_page>
-      <Headers>
         <Navbar/>
-      </Headers>
       <Div>
         <DivRight>
         <TextContainer>

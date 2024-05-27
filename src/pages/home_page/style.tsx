@@ -8,6 +8,7 @@ export const Div = styled.div`
 
   @media (max-width: 800px) {
     flex-direction: column-reverse;
+    padding-top: 30%;
   }
 `;
 
@@ -18,7 +19,7 @@ export const DivLeft = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
-  
+
   img {
     z-index: 10;
     max-width: 80%;
@@ -56,28 +57,27 @@ export const DivRight = styled.div`
   align-items: center;
   width: 100%;
   height: 100%;
-  /* background-color: #fff; */
 `;
 
 export const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-start; 
+  align-items: flex-start;
   width: 100%;
-  padding-left: 50%; 
-  
   h1, h2 {
     z-index: 10;
     font-family: monospace;
     color: #fff;
   }
-
+  
   h1 {
+    padding-left: 21%;
     margin: 0 0 5%;
     font-size: 4.5vw;
   }
 
   h2 {
+    padding-left: 21%;
     margin: 0 0 5%;
     font-size: 2vw;
     white-space: nowrap;
@@ -93,18 +93,9 @@ export const TextContainer = styled.div`
       font-size: 10vw;
     }
     h2 {
+      padding-left: 17%;
       font-size: 4vw;
     }
   }
 `;
-export const Headers = styled.div`
-  position: fixed; 
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #f0f8ff6c;
-  text-align: center;
-  color: aliceblue;
-  z-index: 1; 
-  padding: 10px 0; 
-`;
+
