@@ -9,7 +9,7 @@ export const Div = styled.div`
 
   @media (max-width: 800px) {
     flex-direction: column-reverse;
-    padding-top: 50%;
+    padding-top: 37%;
   }
 `;
 
@@ -96,7 +96,7 @@ export const TextContainer = styled.div`
   }
 
   @media (max-width: 800px) {
-    margin-top:5%;
+    margin-top:2%;
     h1 {
       font-size: 10vw;
       font-size: 6vw;
