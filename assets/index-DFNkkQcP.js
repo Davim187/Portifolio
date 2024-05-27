@@ -87,7 +87,7 @@ Error generating stack: `+i.message+`
 
   @media (max-width: 800px) {
     flex-direction: column-reverse;
-    padding-top: 50%;
+    padding-top: 37%;
   }
 `,uh=De.div`
   flex: 1;
@@ -164,7 +164,7 @@ Error generating stack: `+i.message+`
   }
 
   @media (max-width: 800px) {
-    margin-top:5%;
+    margin-top:2%;
     h1 {
       font-size: 10vw;
       font-size: 6vw;
