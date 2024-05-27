@@ -2,7 +2,7 @@
   "name": "portifolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://davim187.github.io/Portifolio",
+  "homepage": "https://davim187.github.io/portifolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
