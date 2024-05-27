@@ -12,7 +12,7 @@ export const Div = styled.div`
 `;
 
 
-export const NavDots = styled.div`
+export const NavDotsDiv = styled.div`
   position: fixed;
   bottom: 20px;
   right: 20px;

@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
-import { Div, NavDots, Dot } from './style';
+import { Div, NavDotsDiv, Dot } from './style';
 
-export const Navbar = () => {
+export const NavDots = () => {
   const [currentPage, setCurrentPage] = useState(0);
-  const totalPages = 4; // Número total de páginas
+  var totalPages = 4; // Número total de páginas
 
   const handleScroll = () => {
     const scrollPosition = window.pageYOffset;
@@ -30,15 +30,15 @@ export const Navbar = () => {
 
   return (
     <Div>
-      <NavDots>
+      <NavDotsDiv>
       {[...Array(totalPages)].map((_, index) => (
           <Dot 
             key={index} 
             active={index === currentPage} 
-            onClick={() => scrollToPage(index)} 
+            onClick={() => scrollToPage(index) } 
           />
         ))}
-      </NavDots>
+      </NavDotsDiv>
     </Div>
   );
 };

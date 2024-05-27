@@ -6,8 +6,8 @@ export const Section = styled.section`
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: rgb(29, 29, 29);
-  overflow: hidden;
+  background-color: hsl(0, 0%, 11.372549019607844%);
+  overflow: hidden; 
   z-index: 0;
   justify-content: center;
 

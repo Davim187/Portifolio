@@ -5,10 +5,11 @@ export const Div = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 100vw;
+  margin-top:5%;
 
   @media (max-width: 800px) {
     flex-direction: column-reverse;
-    padding-top: 30%;
+    padding-top: 50%;
   }
 `;
 
@@ -22,24 +23,28 @@ export const DivLeft = styled.div`
 
   img {
     z-index: 10;
-    max-width: 80%;
+    max-width: 60%;
     min-width: 40%;
   }
 
   @media (max-width: 800px) {
     order: 2;
+    img{
+    max-width: 75%;
+    }
+
   }
 `;
 
 const typing = keyframes`
   0% {
-    width: 16ch;
+    width: 0ch;
   }
   40% {
-    width: 28ch;
+    width: 12ch;
   }
   100% {
-    width: 28ch;
+    width: 12ch;
   }
 `;
 
@@ -51,7 +56,7 @@ const blinking = keyframes`
 
 export const DivRight = styled.div`
   order: 1;
-  flex: 1;
+  flex: 1;  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,37 +69,42 @@ export const TextContainer = styled.div`
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
-  h1, h2 {
+  font-family: monospace;
+  margin-top:10%;
+  
+
+  h1 {
     z-index: 10;
     font-family: monospace;
     color: #fff;
-  }
-  
-  h1 {
-    padding-left: 21%;
-    margin: 0 0 5%;
-    font-size: 4.5vw;
+    font-size: 3vw;
+    padding:0 0 2% 21%;
   }
 
   h2 {
+    z-index: 10;
+    color: rgb(0, 68, 255);
     padding-left: 21%;
     margin: 0 0 5%;
-    font-size: 2vw;
+    font-size: 3vw;
     white-space: nowrap;
     overflow: hidden;
     border-right: 4px solid;
-    width: 28ch;
+    width: 15ch;
     animation-delay: 5s;
-    animation: ${typing} 4s steps(28) infinite, ${blinking} 0.5s step-end infinite;
+    animation: ${typing} 4s steps(15) infinite, ${blinking} 0.5s step-end infinite;
   }
 
   @media (max-width: 800px) {
+    margin-top:5%;
     h1 {
       font-size: 10vw;
+      font-size: 6vw;
+      padding-left: 23%;
     }
     h2 {
-      padding-left: 17%;
-      font-size: 4vw;
+      padding-left: 35%;
+      font-size: 4.5vw;
     }
   }
 `;
