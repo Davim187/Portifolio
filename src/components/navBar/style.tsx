@@ -1,15 +1,15 @@
 import styled from "styled-components";
 
 export const Div = styled.div`
-  z-index: 100;
+  /* z-index: 1000; */
   display: flex;
+  z-index: -1;
   div {
-    z-index: 10;
     background-color: rgb(29, 29, 29);
     position: fixed;
     left: 0;
     top: 0;
-    width: 100vw;
+    width: 100%;
     border-bottom: 1px solid #fff;
   }
   h1 {
@@ -19,8 +19,8 @@ export const Div = styled.div`
     font-size: 2.5vw;
     padding: 1%;
   }
-  
-  @media (max-width: 800px) {
+
+  @media (max-width: 600px) {
     h1 {
       padding: 2%;
       font-size: 7vw;
