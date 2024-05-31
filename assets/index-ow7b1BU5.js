@@ -46,7 +46,11 @@ Error generating stack: `+i.message+`
   margin: 5%;
   width: 100vw;
   justify-content: center;
-  padding-left: 6%;
+  
+  @media (max-width: 800px) {
+    padding-left: 10%;
+
+  }
 `,wy=F.div`
   width: 100%;
   display: flex;
@@ -199,6 +203,11 @@ Error generating stack: `+i.message+`
   width: 94%;
   justify-content: center;
   padding-left: 2%;
+
+  @media (max-width: 800px) {
+    padding-left: 5%;
+
+  }
 `,X6=F.div`
   width: 85%;
   display: flex;
@@ -522,6 +531,7 @@ Error generating stack: `+i.message+`
   display: flex;
   flex-direction: column;
   padding: 20px;
+  padding-bottom: 100px;
   border-radius: 0 25%;
   width: 70px;
   height: 70px;
