@@ -1,12 +1,11 @@
 import styled from "styled-components";
 
 export const Div = styled.div`
-  /* z-index: 1000; */
+  z-index: 1000;
   display: flex;
-  z-index: -1;
+  position: relative;
   div {
     background-color: rgb(29, 29, 29);
-    position: fixed;
     left: 0;
     top: 0;
     width: 100%;

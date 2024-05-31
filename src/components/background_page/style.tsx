@@ -9,7 +9,6 @@ export const Section = styled.section`
   background-color: hsl(0, 0%, 11.372549019607844%);
   overflow: hidden; 
   z-index: 0;
-  justify-content: center;
 
   @media (max-width: 800px) {
     justify-content: flex-start;

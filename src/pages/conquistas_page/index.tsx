@@ -1,6 +1,6 @@
 import { Cards_conquista } from "../../components/cards_conquista";
 import { Div, Tag } from "./style";
-import { habilidades } from "../../utils /utilsObjects";
+import { habilidades } from "../../utils/utilsObjects";
 
 
 export function Conquista_page() {

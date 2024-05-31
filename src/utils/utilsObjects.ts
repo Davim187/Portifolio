@@ -12,9 +12,20 @@ import HostDev from "../assets/projetos/HostDev.png";
 import Mario from "../assets/projetos/Mario.png";
 import TabelaAlunos from "../assets/projetos/TabelaAlunos.png";
 
+import { FaGithub } from "react-icons/fa";
+import { CiLinkedin } from "react-icons/ci";
+import { MdEmail } from "react-icons/md";
+
 interface Habilidade {
   nameCard: string;
   svg: IconType;
+}
+
+interface Conexao {
+  nameCard: string;
+  svg: IconType;
+  descriptionCard:string
+  link:string
 }
 
 interface Projetos {
@@ -32,6 +43,12 @@ export const habilidades: Habilidade[] = [
   { nameCard: "REACT", svg: FaReact },
   { nameCard: "REACT NATIVE", svg: TbBrandReactNative },
   { nameCard: "NODE.JS", svg: FaNodeJs },
+];
+
+export const conexao: Conexao[] = [
+  { nameCard: "Github", svg: FaGithub, link: "https://github.com/Davim187",descriptionCard:'@Davim187' },
+  { nameCard: "Linkedin", svg: CiLinkedin, link: "https://www.linkedin.com/in/davi-morais-46680b23a/",descriptionCard:'Davi Morais'},
+  { nameCard: "Email", svg: MdEmail, link: "mailto:daviimorais39@gmail.com",descriptionCard:'daviimorais39@gmail.com' },
 ];
 
 export const projetos: Projetos[] = [

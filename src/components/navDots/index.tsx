@@ -3,7 +3,7 @@ import { Div, NavDotsDiv, Dot } from './style';
 
 export const NavDots = () => {
   const [currentPage, setCurrentPage] = useState(0);
-  var totalPages = 4; // Número total de páginas
+  var totalPages = 5; // Número total de páginas
 
   const handleScroll = () => {
     const scrollPosition = window.pageYOffset;
