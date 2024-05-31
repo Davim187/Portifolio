@@ -47,7 +47,7 @@ export function Card_projetos({ data }: CardsConquistaProps) {
                     size="small"
                     color="primary"
                     href={projeto.link}
-                    target="_blank" // abre o link em uma nova guia
+                    target="_blank"
                   >
                     GitHub
                   </Button>

@@ -2,6 +2,7 @@ import styled, { keyframes } from "styled-components";
 
 interface Props {
   nameButton: string;
+  target?:string
 }
 
 const gradientAnimation = keyframes`
