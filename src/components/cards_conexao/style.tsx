@@ -50,6 +50,7 @@ export const DivC = styled.div`
   display: flex;
   flex-direction: column;
   padding: 20px;
+  padding-bottom: 100px;
   border-radius: 0 25%;
   width: 70px;
   height: 70px;

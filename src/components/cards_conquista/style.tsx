@@ -8,7 +8,11 @@ export const Div = styled.div`
   margin: 5%;
   width: 100vw;
   justify-content: center;
-  padding-left: 6%;
+  
+  @media (max-width: 800px) {
+    padding-left: 10%;
+
+  }
 `;
 
 export const InnerDiv = styled.div`

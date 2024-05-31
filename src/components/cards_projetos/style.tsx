@@ -9,6 +9,11 @@ export const Div = styled.div`
   width: 94%;
   justify-content: center;
   padding-left: 2%;
+
+  @media (max-width: 800px) {
+    padding-left: 5%;
+
+  }
 `;
 
 export const InnerDiv = styled.div`
