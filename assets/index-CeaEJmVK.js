@@ -48,7 +48,7 @@ Error generating stack: `+i.message+`
   justify-content: center;
   padding-left: 6%;
 `,wy=F.div`
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -198,9 +198,9 @@ Error generating stack: `+i.message+`
   align-items: center;
   width: 94%;
   justify-content: center;
-  padding-left: 6%;
+  padding-left: 2%;
 `,X6=F.div`
-  width: 80%;
+  width: 85%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
