@@ -8,11 +8,11 @@ export const Div = styled.div`
   align-items: center;
   width: 94%;
   justify-content: center;
-  padding-left: 6%;
+  padding-left: 2%;
 `;
 
 export const InnerDiv = styled.div`
-  width: 80%;
+  width: 85%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;

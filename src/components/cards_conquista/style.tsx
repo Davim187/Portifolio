@@ -12,7 +12,7 @@ export const Div = styled.div`
 `;
 
 export const InnerDiv = styled.div`
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
